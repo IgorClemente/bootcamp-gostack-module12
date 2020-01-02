@@ -1,7 +1,8 @@
 import reducer, {
   INITIAL_STATE
-} from "../../../src/store/modules/techs/reducer";
-import * as Techs from "../../../src/store/modules/techs/actions";
+} from "../../../../src/store/modules/techs/reducer";
+
+import * as Techs from "../../../../src/store/modules/techs/actions";
 
 describe("Techs reducer", () => {
   it("ADD_TECH", () => {
