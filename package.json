@@ -20,7 +20,6 @@
     "eject": "react-scripts eject"
   },
   "jest": {
-    "rootDir": "./__tests__",
     "testMatch": [
       "**/__tests__/**/*.test.js"
     ],
@@ -29,10 +28,17 @@
       "@testing-library/jest-dom/extend-expect",
       "jest-localstorage-mock"
     ],
+    "roots": [
+      "<rootDir>/__tests__"
+    ],
     "moduleMapperName": {
       "^~/(.*)": "<rootDir>/src/$1"
     },
-    "coverageDirectory": "./coverage"
+    "collectCoverageFrom": [
+      "!src/App.js",
+      "!src/index.js"
+    ],
+    "coverageDirectory": "__tests__/coverage"
   },
   "eslintConfig": {
     "extends": "react-app"
