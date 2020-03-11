@@ -1,1 +1,0 @@
-# bootcamp-gostack-module12
