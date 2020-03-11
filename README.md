@@ -34,15 +34,15 @@
 
 ## :rocket: Descrição
 
-Aplicação Backend desenvolvida no modelo RestFul para Barbearias, o cliente através do aplicativo Mobile busca um horário disponível na agenda do prestador de serviços, no caso, o Barbeiro. O Barbeiro tem acesso a sua agenda através da interface WEB, onde ele visualiza quem ele vai atender em determinado horário - Essa aplicação executa no servidor [NodeJS](https://nodejs.org/en/).
+Uma breve introdução ao uso de testes de integração, esse repositório possui dois projetos de exemplo, desenvolvidos em React JS e React Native. Nesse exemplo, tem manipulação de testes dentro de uma árvore de elementos (React JS, React Native), mock de dados salvos localmente (Async Storage / Local Storage), mock de state (Redux).
 
-Nesse projeto foi aplicado testes de integração, mock de dados com Faker e Factory Girl.
+A ferramenta de testes utilizada é o [Jest](https://jestjs.io), ferramenta de fácil utilização, possuí coverage para coletar todas informações de cobertura dos testes, facilita o mock de dados, de State / Redux, Local Storage / Async Storage entre outros.
 
 ## :hammer: Iniciando a aplicação
 
 Para executar os testes execute os seguintes comandos:
 
-Instale todas as dependências:
+Instale todas as dependências, de acordo com projeto a ser utilizado. (ReactJS, React Native) :
 
 ```bash
 
